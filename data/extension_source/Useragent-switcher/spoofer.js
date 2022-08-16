@@ -1014,6 +1014,7 @@ function isDomainName(str) {
 function getBaseOptionsList(hard_reset, callback) {
   var base_options_list = new Array();
   callback = (callback ? callback : function() {});
+  base_options_list.push(new UserAgent("purple", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4485.0 Safari/537.36 EPA/CIVAI  autochrome/purple" , "", "", true, "Auto_chrome"));
   base_options_list.push(new UserAgent("red", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4485.0 Safari/537.36 EPA/CIVAI  autochrome/pink" , "", "", true, "Auto_chrome"));
   base_options_list.push(new UserAgent("blue", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4485.0 Safari/537.36 EPA/CIVAI  autochrome/blue" , "", "", true, "Auto_chrome"));
   base_options_list.push(new UserAgent("white", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4485.0 Safari/537.36 EPA/CIVAI  autochrome/white" , "", "", true, "Auto_chrome"));
