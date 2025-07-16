@@ -1,3 +1,9 @@
+Hi light extension burp
+https://github.com/PortSwigger/multi-browser-highlighting
+ModHeader Extgension
+red, blue, pink, green, magenta, cyan, orange, gray, yellow
+---------
+
 # autochrome
 
 This tool downloads, installs, and configures a shiny new copy of Chromium.
